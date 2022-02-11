@@ -1,0 +1,31 @@
+h1 {
+    font-family: 'Libre Franklin', sans-serif;
+    color: white;
+    font-size: 100px;
+    font-weight: 600;
+    color: #FFFFFF;
+  }
+  
+  h1 span span {
+    position: relative;
+    animation: bounce 0.75s forwards;
+    bottom: -1em;
+    opacity: 0;
+  }
+  
+  @keyframes bounce {
+    0% {
+      bottom: -0.2em;
+      opacity: 1;
+    }
+    
+    50% {
+      bottom: 0.2em;
+    }
+  
+    100% {
+      bottom: 0;
+      opacity: 1;
+    }
+  }
+  
