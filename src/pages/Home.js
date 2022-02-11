@@ -11,7 +11,7 @@ const Home  = () => {
           <h1>
             <AnimatedText copy = "Hi, I'm Arvind" role="heading" />
           </h1>
-        <DescriptionText>Computer Science Student at the University of Washington</DescriptionText>
+        <DescriptionText>Hello sadjkladhj Computer Science Student at the University of Washington</DescriptionText>
         <NavBtn>
           <NavBtnLink to="/about">Contact Me</NavBtnLink>
         </NavBtn>
