@@ -1,12 +1,12 @@
-h1 {
+h2 {
     font-family: 'Libre Franklin', sans-serif;
-    color: white;
     font-size: 100px;
     font-weight: 600;
+    padding-top: 70px;
     color: #FFFFFF;
   }
   
-  h1 span span {
+  h2 span span {
     position: relative;
     animation: bounce 0.75s forwards;
     bottom: -1em;
@@ -28,4 +28,3 @@ h1 {
       opacity: 1;
     }
   }
-  

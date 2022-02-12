@@ -3,18 +3,23 @@ import React from "react";
 import styled from 'styled-components';
 import {NavLink as Link} from 'react-router-dom';
 import AnimatedText from '../components/AnimatedText';
+import layer1 from '../files/newfullbackground.svg';
 
 const Home  = () => {
     return (
+      
       <Background>
+        
+        {/* <div class="spacer layer1"></div> */}
         <Container1>
-          <h1>
+          
+          <h2>
             <AnimatedText copy = "Hi, I'm Arvind" role="heading" />
-          </h1>
+          </h2>
         <DescriptionText>Computer Science Student at the University of Washington</DescriptionText>
-        <NavBtn>
+        {/* <NavBtn>
           <NavBtnLink to="/about">Contact Me</NavBtnLink>
-        </NavBtn>
+        </NavBtn> */}
         </Container1>
         <Container2>
           <AboutMeTitles>Welcome to me:</AboutMeTitles>
@@ -36,8 +41,7 @@ const Home  = () => {
           <ProjectTitle>
             Hydro - Financial Management                            Spring 2021
           </ProjectTitle>
-          <ProjectDesc>
-            - Independent project during my senior year of high school to learn about react native and JSX <br />
+          <ProjectDesc>- Independent project during my senior year of high school to learn about react native and JSX <br />
             - Created triple nested navigation with stack, bottom tab, and specific in-screen top tab navigators <br />
             - Learned to pass state between components, use callback methods, and write API queries (Yelp) <br />
             - Used Hooks and AsyncStorage <br />
@@ -54,6 +58,12 @@ const Background = styled.section`
   background: #1d1d1d;
   padding-left: 125px;
   display: flex;
+  background-image: url(${layer1});
+    aspect-ratio: 960/300; // full background is 2000/2000 the layer is 960/300
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 `;
 
 const Container1 = styled.section`
@@ -61,16 +71,15 @@ const Container1 = styled.section`
   width: 50vw;
   padding-top: 30vh;
   flex: 1;
-  */padding-left: 100px; only if sidebar is active
+  padding-left: 100px; only if sidebar is active
 `;
 
 const Container2 = styled.section`
   background: #171717;
-  border-color: #A7D5FA;
+  border-color: #FCFFA3;
   border-style: solid;
   border-width: 1px;
-  margin: 120px;
-  margin-right: 140px;
+  margin: 140px;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -84,19 +93,21 @@ const Container2 = styled.section`
 `;
 
 const DescriptionText = styled.h1`
-  font-family: 'Open-Sans';
-  color: #8D8D8D;
+  font-family: 'Space Mono';
+  color: #FCFFA3;
   font-size: 16px;
   padding-top: 10px;
+  padding-left: 7px;
 `;
 
 const AboutMeTitles = styled.h1`
 font-family: 'Space Mono';
-color: #FFFFFF;
+color: #FCFFA3;
 font-size: 40px;
-padding-bottom: 20px;
 padding-top: 10px;
+margin-bottom: 0px;
 align-self: center;
+padding-bottom: 20px;
 `
 
 const ProjectTitle = styled(AboutMeTitles)`
@@ -109,11 +120,9 @@ margin-left: 15px;
 margin-right: 15px;
 color: #FFFFFF;
 font-size: 16px;
-align-self: center;
 padding-bottom: 5px;
 flex: display;
 `
-
 
 const ProjectDesc = styled(AboutMeDesc)`
   align-self: flex-start;
