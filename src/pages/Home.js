@@ -36,19 +36,21 @@ const Home  = () => {
             ReThink - Organization                         Spring 2022
           </ProjectTitle>
           <AboutMeDesc>
-            Rethink is a Foster organization created to promote awareness and help people make more sustainable consumer choices <br/>
-            Learning to work with Spring, MySQL, Docker, AWS, and electron to convert to desktop
+            - Rethink is a Foster organization created to promote awareness and advocate for sustainable consumer choices <br/>
+            - Responsible for the end-to-end development and redesign of the main website and maintaining portal used to track progress by marketing<br/>
+            - Used React.js and Firestore (NoSQL)
+            - Learned valuable collaboration and leadership skills
           </AboutMeDesc>
           <AboutMeTitles>Current Projects:</AboutMeTitles>
           <AboutMeDesc>
-            In the process of creating a full stack project management tool to be a desktop application <br/>
+            In the process of creating a full stack project management tool to be a desktop application.
             Learning to work with Spring, MySQL, Docker, AWS, and electron to convert to desktop
           </AboutMeDesc>
           <AboutMeTitles>Past Projects:</AboutMeTitles>
           <ProjectTitle>
             Nudge - Weight Loss Tracker                            Spring 2022
           </ProjectTitle>
-          <ProjectDesc> -Created to help motivate individuals to continue their weight loss journey by having easy access to their own results <br />
+          <ProjectDesc> - Created to help motivate individuals to continue their weight loss journey by having easy access to their own results <br />
             - Users can add images of their project to a calendar and receive a collage of their progress occasionally <br />
             - Stack: React.js, Node.js, Google Cloud Firestore and File Storage <br />
             - Data was structured in firestore (noSQL database) using key-value pairs <br />
@@ -56,7 +58,7 @@ const Home  = () => {
           <ProjectTitle>
             Hydro - Financial Management                            Spring 2021
           </ProjectTitle>
-          <ProjectDesc>Mobile App to manage expenses and cancel old subscriptions <br />
+          <ProjectDesc>- Mobile App to manage expenses and cancel old subscriptions <br />
             - Users can add transaction information which would be sorted and displayed as graphs <br />
             - Data would be stored locally using Async Storage <br />
           </ProjectDesc>
