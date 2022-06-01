@@ -25,19 +25,35 @@ const Home  = () => {
           <AboutMeTitles>Welcome to me:</AboutMeTitles>
           <AboutMeDesc>
             I'm an 18 year old college student with a passion for amazing products and new technologies. 
-            At this point in my life I'm really motivated to find opportunities to work on some cool projects
-            as well as surround myself with people that will help make me better professionally and personally.
+            I'm interested to work on some cool projects, so please contact if you have good ideas!
           </AboutMeDesc>
           <AboutMeTitles>My Skills:</AboutMeTitles>
           <ProjectDesc>
-            - Java, Javascript, HTML, CSS <br/>
-            - React, React Native
+            - Java, Javascript, C, Typescript, HTML, CSS <br/>
+            - React.js, React Native, Git, Firestore (NoSQL), MySQL (SQL), Linux, Node.js, REST, Spring
           </ProjectDesc>
+          <AboutMeTitles>Work Experience:</AboutMeTitles>\
+          <ProjectTitle>
+            ReThink - Sustainability Organization                            Spring 2022
+          </ProjectTitle>
+          <AboutMeDesc>
+            Rethink is a Foster organization created to promote awareness and help people make more sustainable consumer choices <br/>
+            Learning to work with Spring, MySQL, Docker, AWS, and electron to convert to desktop
+          </AboutMeDesc>
           <AboutMeTitles>Current Projects:</AboutMeTitles>
           <AboutMeDesc>
-            Learning about deep learning and using tensorflow to create a music genre classification system
+            In the process of creating a full stack project management tool to be a desktop application <br/>
+            Learning to work with Spring, MySQL, Docker, AWS, and electron to convert to desktop
           </AboutMeDesc>
           <AboutMeTitles>Past Projects:</AboutMeTitles>
+          <ProjectTitle>
+            Nudge - Weight Loss Tracker                            Spring 2022
+          </ProjectTitle>
+          <ProjectDesc> -Created to help motivate individuals to continue their weight loss journey by having easy access to their own results <br />
+            - Users can add images of their project to a calendar and receive a collage of their progress occasionally <br />
+            - Stack: React.js, Node.js, Google Cloud Firestore and File Storage <br />
+            - Data was structured in firestore (noSQL database) using key-value pairs <br />
+          </ProjectDesc>
           <ProjectTitle>
             Hydro - Financial Management                            Spring 2021
           </ProjectTitle>
@@ -68,8 +84,7 @@ const Background = styled.section`
 
 const Container1 = styled.section`
   */background: pink;
-  width: 50vw;
-  padding-top: 30vh;
+w     padding-top: 30vh;
   flex: 1;
   padding-left: 100px; only if sidebar is active
 `;
