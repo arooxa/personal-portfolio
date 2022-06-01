@@ -34,7 +34,7 @@ const Home  = () => {
           </ProjectDesc>
           <AboutMeTitles>Work Experience:</AboutMeTitles>\
           <ProjectTitle>
-            ReThink - Sustainability Organization                            Spring 2022
+            ReThink - Organization                         Spring 2022
           </ProjectTitle>
           <AboutMeDesc>
             Rethink is a Foster organization created to promote awareness and help people make more sustainable consumer choices <br/>
