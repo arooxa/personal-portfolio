@@ -12,7 +12,6 @@ const Home  = () => {
         
         {/* <div class="spacer layer1"></div> */}
         <Container1>
-          
           <h2>
             <AnimatedText copy = "Hi, I'm Arvind" role="heading" />
           </h2>
@@ -32,7 +31,7 @@ const Home  = () => {
             - Java, Javascript, C, Typescript, HTML, CSS <br/>
             - React.js, React Native, Git, Firestore (NoSQL), MySQL (SQL), Linux, Node.js, REST, Spring
           </ProjectDesc>
-          <AboutMeTitles>Work Experience:</AboutMeTitles>\
+          <AboutMeTitles>Work Experience:</AboutMeTitles>
           <ProjectTitle>
             ReThink - Organization                         Spring 2022
           </ProjectTitle>
@@ -57,10 +56,9 @@ const Home  = () => {
           <ProjectTitle>
             Hydro - Financial Management                            Spring 2021
           </ProjectTitle>
-          <ProjectDesc>- Independent project during my senior year of high school to learn about react native and JSX <br />
-            - Created triple nested navigation with stack, bottom tab, and specific in-screen top tab navigators <br />
-            - Learned to pass state between components, use callback methods, and write API queries (Yelp) <br />
-            - Used Hooks and AsyncStorage <br />
+          <ProjectDesc>Mobile App to manage expenses and cancel old subscriptions <br />
+            - Users can add transaction information which would be sorted and displayed as graphs <br />
+            - Data would be stored locally using Async Storage <br />
           </ProjectDesc>
         </Container2>
       </Background>
@@ -83,9 +81,12 @@ const Background = styled.section`
 `;
 
 const Container1 = styled.section`
-  */background: pink;
-w     padding-top: 30vh;
+  padding-top: 30vh;
   flex: 1;
+  display: flex;
+  jutsify-content: center;
+  flex-direction: column;
+  align-items: center;
   padding-left: 100px; only if sidebar is active
 `;
 
