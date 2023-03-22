@@ -12,6 +12,23 @@ code {
     monospace;
 }
 
+a {
+  color: #111111;
+  text-decoration: none;
+  background-color: transparent;
+
+}
+
+li {
+  padding-bottom: 5px;
+}
+
+
+
+a:hover {
+    text-decoration: underline;
+}
+
 * {
   margin: 0;
   box-sizing: border-box;

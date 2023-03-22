@@ -71,7 +71,7 @@ const Home  = () => {
 
 const Background = styled.section`
   height: 100vh;
-  background: #1d1d1d;
+  background: #25E88A;
   padding-left: 125px;
   display: flex;
   background-image: url(${layer1});
@@ -80,7 +80,7 @@ const Background = styled.section`
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-`;
+`
 
 const Container1 = styled.section`
   padding-top: 30vh;
