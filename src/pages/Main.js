@@ -91,7 +91,16 @@ const Main = () => {
                             </ul>
                         </li>
                         <li>
-                            Co-created Kadu, an AI email and writing assistant that
+                            Co-created 
+                            {' '}
+                            <a
+                                href="https://www.linkedin.com/company/kadu-ai/"
+                                target="_blank"
+                                style={{ color: '#007bff' }}
+                            >
+                                Kadu
+                            </a>
+                            , an AI email and writing assistant that
                             empowers students to improve their job application process
                         </li>
                         <li>
@@ -116,7 +125,16 @@ const Main = () => {
                                 CSSI
                             </a>
                             ) in 2021, a program designed to provide college students with hands-on 
-                            experience in computer science and software engineering
+                            experience in computer science and software engineering.
+                            Check out my final project model
+                            {' '}
+                            <a
+                                href="https://apps.apple.com/us/app/head-ball-2-football-game/id1193933380"
+                                target="_blank"
+                                style={{ color: '#007bff' }}
+                            >
+                                here
+                            </a>
                         </li>
                     </ul>
                 </p>
